@@ -39,10 +39,10 @@ namespace ChallengesWithTestsMark8.Tests
         public void GetLengthOfShortestString(string string1, string string2, string string3, string string4, int expected)
         {
             // Arrange
-            ChallengesSet04 challenger = new ChallengesSet04();
+            ChallengesSet04 ChallengesSet04 = new ChallengesSet04();
 
             // Act
-            int actual = challenger.GetLengthOfShortestString(string1, string2, string3, string4);
+            int actual = ChallengesSet04.GetLengthOfShortestString(string1, string2, string3, string4);
 
             // Assert
             Assert.Equal(expected, actual);
